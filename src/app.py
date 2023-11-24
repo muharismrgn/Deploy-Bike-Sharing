@@ -7,7 +7,7 @@ from preprocessing import *
 from pycaret.regression import *
 
 # Load the model
-model = load_model('../model/CatBoostModel')
+model = load_model('model/CatBoostModel')
 
 @st.cache_data
 def convert_df(df):
