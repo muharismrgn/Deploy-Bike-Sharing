@@ -20,7 +20,7 @@ def predict(model, input_df):
 
 def main():
     # Load picture
-    image_side = Image.open('../img/capital-bike-share.jpg')
+    image_side = Image.open('img/capital-bike-share.jpg')
 
     # Add option to select online or offline prediction
     add_selectbox = st.sidebar.selectbox(
